@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Dejar Reseña";
+}
+<h2>📝 Deja tu Reseña</h2>
+<form method="post">
+    <label>Comentario:</label>
+    <textarea name="comentario" rows="4"></textarea>
+    <label>Calificación:</label>
+    <select name="calificacion">
+        <option value="5">🌟🌟🌟🌟🌟</option>
+        <option value="4">🌟🌟🌟🌟</option>
+        <option value="3">🌟🌟🌟</option>
+        <option value="2">🌟🌟</option>
+        <option value="1">🌟</option>
+    </select>
+    <button type="submit">Enviar Reseña</button>
+</form>
